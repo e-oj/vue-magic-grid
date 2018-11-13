@@ -1,0 +1,20 @@
+{
+  "name": "Vue-Magic-Grid",
+  "version": "1.0.0",
+  "description": "This is a Vue.js port of @e-oj 's Magic Grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imlinus/Vue-Magic-Grid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imlinus/Vue-Magic-Grid/issues"
+  },
+  "homepage": "https://github.com/imlinus/Vue-Magic-Grid#readme"
+}
