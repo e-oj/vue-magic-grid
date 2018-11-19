@@ -1,13 +1,41 @@
 # Vue-Magic-Grid
 This is a Vue.js port of @e-oj 's Magic Grid.
-Note, this is version 0.0.1. (still some minor issues)
+Please check the `/test` folder for a example.
+
+Make sure to lazy-load images with a set height of the image-div,
+or use `waitForImages()` or something similar
+to make sure the grid is properly calculated.
 
 ### Setup
-Register the component
+Install & Register the component
+```js
+$ npm i -S vue-magic-grid
+```
 
 ```js
+import magicGrid from 'vue-magic-grid'
+
 Vue.component('magic-grid', magicGrid)
 ```
+
+### Use
+```html
+<magic-grid>
+  <card
+    v-for="(post, i) in posts"
+    :key="i"
+    :title="post.title"
+    :body="post.body" />
+</magic-grid>
+```
+
+### Props
+- `wrapper: 'wrapper'` // Wrapper class/id
+- `gap: 32` // Gap between elements
+- `maxCols: 5` // Maximum number of colums. Default: Infinite
+- `maxColWidth: 280` // Maximum width of child elements
+- `animate: false` // Animate item positioning.
+
 
 Cheers,
 ImLinus
