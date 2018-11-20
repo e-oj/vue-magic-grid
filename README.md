@@ -13,9 +13,9 @@ $ npm i -S vue-magic-grid
 ```
 
 ```js
-import magicGrid from 'vue-magic-grid'
+import MagicGrid from 'vue-magic-grid'
 
-Vue.component('magic-grid', magicGrid)
+Vue.use(MagicGrid)
 ```
 
 ### Use
