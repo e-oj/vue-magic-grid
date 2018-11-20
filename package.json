@@ -1,6 +1,6 @@
 {
   "name": "vue-magic-grid",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This is a Vue.js port of @e-oj 's Magic Grid",
   "main": "index.js",
   "scripts": {
