@@ -6,6 +6,8 @@ Make sure to lazy-load images with a set height of the image-div,
 or use `waitForImages()` or something similar
 to make sure the grid is properly calculated.
 
+<img src="https://i.imgur.com/Wzw0Yl9.png">
+
 ### Setup
 Install & Register the component
 ```js
