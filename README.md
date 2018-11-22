@@ -32,11 +32,11 @@ Vue.use(MagicGrid)
 ### Props
 | Props       | Default   | Comment                  |
 | :-----------|:----------| -------------------------|
-| wrapper     | wrapper   | Wrapper class            |
-| gap         | 32        | Gap between elements     |
-| maxCols     | 5         | Max number of colums     |
-| maxColWidth | 280       | Max width of columns     |
-| animate     | false     | Animate item positioning |
+| wrapper     | `wrapper` | Wrapper class            |
+| gap         | `32`      | Gap between elements     |
+| maxCols     | `5`       | Max number of colums     |
+| maxColWidth | `280`     | Max width of columns     |
+| animate     | `false`   | Animate item positioning |
 
 Cheers,
 ImLinus
