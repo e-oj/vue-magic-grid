@@ -1,4 +1,11 @@
 # Vue-Magic-Grid
+
+[![GitHub forks](https://img.shields.io/github/forks/imlinus/Vue-Magic-Grid.svg)](https://github.com/imlinus/Vue-Magic-Grid/network)
+[![GitHub stars](https://img.shields.io/github/stars/imlinus/Vue-Magic-Grid.svg)](https://github.com/imlinus/Vue-Magic-Grid/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/imlinus/Vue-Magic-Grid.svg)](https://github.com/imlinus/Vue-Magic-Grid/issues)
+[![GitHub license](https://img.shields.io/github/license/imlinus/Vue-Magic-Grid.svg)](https://github.com/imlinus/Vue-Magic-Grid/blob/master/LICENSE)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 This is a Vue.js port of @[e-oj's](https://github.com/e-oj) [Magic Grid](https://github.com/e-oj/Magic-Grid).
 Please check the `/test` folder for a example.
 
@@ -30,13 +37,15 @@ Vue.use(MagicGrid)
 ```
 
 ### Props
-| Props       | Default   | Comment                  |
-| :-----------|:----------| -------------------------|
-| wrapper     | `wrapper` | Wrapper class            |
-| gap         | `32`      | Gap between elements     |
-| maxCols     | `5`       | Max number of colums     |
-| maxColWidth | `280`     | Max width of columns     |
-| animate     | `false`   | Animate item positioning |
+| Prop        | Default   | Comment                    |
+|:------------|:----------|:---------------------------|
+| wrapper     | `wrapper` | _Wrapper class_            |
+| gap         | `32`      | _Gap between elements_     |
+| maxCols     | `5`       | _Max number of colums_     |
+| maxColWidth | `280`     | _Max width of columns_     |
+| animate     | `false`   | _Animate item positioning_ |
+
+<img src="https://cdn.rawgit.com/feross/standard/master/sticker.svg" alt="Standard JavaScript" width="100">
 
 Cheers,
 ImLinus
