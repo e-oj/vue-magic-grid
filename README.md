@@ -45,7 +45,7 @@ Vue.use(MagicGrid)
 | maxColWidth | `280`     | _Max width of columns_     |
 | animate     | `false`   | _Animate item positioning_ |
 
-<img src="https://cdn.rawgit.com/feross/standard/master/sticker.svg" alt="Standard JavaScript" width="100">
+[![js-standard-style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
 
 Cheers,
 ImLinus
