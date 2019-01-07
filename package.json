@@ -2,7 +2,7 @@
   "name": "vue-magic-grid",
   "version": "0.0.3",
   "description": "This is a Vue.js port of @e-oj 's Magic Grid",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "cd test && npm run serve"
   },
