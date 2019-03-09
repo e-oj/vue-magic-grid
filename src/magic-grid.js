@@ -22,6 +22,10 @@ export default {
     animate: {
       type: Boolean, // Animate item positioning. Default: false.
       default: true
+    },
+    useMin: {
+      type: Boolean, // Place items in lower column
+      default: false
     }
   },
 
