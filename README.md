@@ -25,6 +25,22 @@ import MagicGrid from 'vue-magic-grid'
 Vue.use(MagicGrid)
 ```
 
+### Setup with Nuxt
+Create a magicgrid.js in your plugin folder
+```js
+import Vue from 'vue'
+import MagicGrid from 'vue-magic-grid'
+
+Vue.use(MagicGrid)
+```
+
+Add the plugin in your nuxt.config.js file
+```js
+plugins: [
+  {src: '~/plugins/magicgrid.js'}
+]
+```
+
 ### Use
 ```html
 <magic-grid>
